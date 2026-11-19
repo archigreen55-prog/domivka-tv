@@ -37,7 +37,7 @@ It is a **launcher (an ordinary app), not firmware** — nothing on the TV is fl
 
 1. Enable developer options and **ADB debugging** on the TV (or sideload with a USB stick).
 2. `adb connect <tv-ip>:5555`
-3. Installing a streamed APK can fail on some vendor builds ("digest did not verify"), so push first:
+3. One command: `bash launcher/install.sh <tv-ip>` — or by hand (a streamed APK can fail on some vendor builds, "digest did not verify", so push first):
    ```bash
    adb push launcher-release.apk /data/local/tmp/domivka.apk
    adb shell pm install -r /data/local/tmp/domivka.apk
