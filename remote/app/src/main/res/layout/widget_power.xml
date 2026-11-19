@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_widget" android:gravity="center_vertical"
+    android:orientation="horizontal" android:padding="14dp">
+    <LinearLayout android:id="@+id/info" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Телевізор" android:textColor="#B3FFFFFF" android:textSize="13sp" />
+        <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Перевіряю…" android:textColor="#FFFFFFFF" android:textSize="19sp" android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView android:id="@+id/btn" android:layout_width="52dp" android:layout_height="52dp"
+        android:background="@drawable/bg_btn_off" android:padding="14dp" android:src="@drawable/ic_power"
+        android:contentDescription="Увімкнути або вимкнути телевізор" />
+</LinearLayout>
