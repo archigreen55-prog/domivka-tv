@@ -15,7 +15,7 @@ Built for a real 32″ TD Systems K32DLX9HS (Android 7, ~800 MB RAM, Mali-450) �
 | **Calendar (OK, then ◀ ▶ to flip months)** | **Settings** |
 | ![calendar](media/calendar.png) | ![settings](media/settings.png) |
 
-> Recorded on the real TV with its built-in recorder, which tops out at ~16 fps on this chip; the video was frame-interpolated to 30 fps. On the TV itself the aurora runs at a steady 30 fps. Personal details (Wi-Fi name, city) are blurred.
+> Recorded on the real TV with its built-in recorder, which tops out at ~16 fps on this chip; the video was frame-interpolated to 30 fps. On the TV itself the aurora runs at a steady 30 fps.
 
 
 ## What is in this repo
